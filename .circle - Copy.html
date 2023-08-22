@@ -1,0 +1,27 @@
+.circle {
+
+width: 100px;
+
+height: 100px; animation-timing-function: linear;
+
+border-radius: 50%; background-color: rgb(72, 207, 90);
+
+position: relative; animation-name: moveCircle;
+
+animation-duration: 2s; animation-iteration-count: infinite;
+
+}
+
+@keyframes moveCircle {
+
+0% {
+
+top: 0;
+
+} 100% {
+
+top: calc(100vh - 100px);
+
+}
+
+}
